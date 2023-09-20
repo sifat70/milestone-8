@@ -14,6 +14,7 @@ const User = ({user}) => {
             <p>Email: {email}</p>
             <p>Phone: {phone}</p>
             <Link to={`/user/${id}`}>Show Details</Link>
+            <Link to={`/user/${id}`}><button>Click me</button></Link>
         </div>
     );
 };
